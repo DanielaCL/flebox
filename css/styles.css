@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0;
+}
+body {
+}
+.productos {
+   display:flex;
+   flex-wrap: wrap;
+}
+.producto{ /* Contenedor padre se aplican las propiedades a su contenidos*/
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
